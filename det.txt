@@ -1,0 +1,18 @@
+Users can submit a pet for adoption by filling out a form.
+Admin reviews adoption submissions and can approve or reject them.
+Approved pets are listed on PawFinds for potential adopters to view.
+Users interested in adopting a pet fill out an application form.
+Admin evaluates adoption applications to select the most suitable adopter.
+Admin maintains a history of adopted pets and their new owners.
+User can browse and search for available pets for adoption.
+They can filter pets based on pet type i.e. dog, cat, fish, etc.
+PawFinds offer detailed pet profiles with photos and descriptions.
+
+Welcome to the PawFinds Pet Adoption System front-end repository! This project is developed using React.js and aims to provide a user-friendly interface for users to discover and adopt pets.
+
+PawFinds is a web application that connects pet lovers with pets in need of a home. Our platform simplifies the process of pet adoption by providing a seamless user experience.
+
+- Browse and search for available pets for adoption.
+- Filter pets based on pet type i.e. dog, cat, fish, etc.
+- Detailed pet profiles with photos and descriptions.
+- Adoption application submission through the platform.
