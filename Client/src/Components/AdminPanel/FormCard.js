@@ -59,7 +59,7 @@ const FormCard = (props) => {
   const handleReject = async () => {
     setIsDeleting(true)
     try {
-      const response = await fetch(`http://localhost:4000/form/reject/${props.form._id}`, {
+      const response = await fetch(`https://pet-linker-ug8m.vercel.app/form/reject/${props.form._id}`, {
         method: 'DELETE'
       })
 

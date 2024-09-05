@@ -7,7 +7,7 @@ const PostingPets = () => {
 
   const fetchRequests = async () => {
     try {
-      const response = await fetch('http://localhost:4000/requests')
+      const response = await fetch('https://pet-linker-ug8m.vercel.app/requests')
       if (!response.ok) {
         throw new Error('An error occurred')
       }

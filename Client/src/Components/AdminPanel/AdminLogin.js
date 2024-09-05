@@ -11,7 +11,7 @@ const AdminLogin = () => {
   useEffect(() => {
     const fetchUsersData = async () => {
       try {
-        const response = await fetch('http://localhost:4000/admin/credentials');
+        const response = await fetch('https://pet-linker-ug8m.vercel.app/admin/credentials');
         if (!response.ok) {
           throw new Error('Failed to fetch');
         }

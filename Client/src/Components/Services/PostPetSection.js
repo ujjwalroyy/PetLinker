@@ -81,7 +81,7 @@ const PostPetSection = () => {
     }
 
     try {
-      const response = await fetch("http://localhost:4000/services", {
+      const response = await fetch("https://pet-linker-ug8m.vercel.app/services", {
         method: "POST",
         body: formData,
       });

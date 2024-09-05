@@ -8,8 +8,14 @@ const cors = require('cors');
 const path = require('path');
 
 const app = express();
-
-app.use(cors());
+const corsOptions = {
+    origin: [
+      'https://pet-linker.vercel.app',
+      'http://localhost:3000'
+    ],
+  };
+  
+app.use(cors(corsOptions));
 
 app.use('/images', express.static(path.join(__dirname, 'images')));
 

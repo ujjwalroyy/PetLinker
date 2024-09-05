@@ -11,7 +11,7 @@ const AdoptingRequests = () => {
 
   const fetchForms = async () => {
     try {
-      const response = await fetch('http://localhost:4000/form/getForms');
+      const response = await fetch('https://pet-linker-ug8m.vercel.app/form/getForms');
       if (!response.ok) {
         throw new Error('An error occurred');
       }
@@ -26,7 +26,7 @@ const AdoptingRequests = () => {
 
   const fetchPets = async () => {
     try {
-      const response = await fetch('http://localhost:4000/approvedPets');
+      const response = await fetch('https://pet-linker-ug8m.vercel.app/approvedPets');
       if (!response.ok) {
         throw new Error('An error occurred');
       }
@@ -112,7 +112,7 @@ const AdoptingRequests = () => {
           <div className='popup-content'>
             <div className='pet-view-card'>
               <div className='pet-card-pic'>
-                <img src={`http://localhost:4000/images/${selectedPet.filename}`} alt={selectedPet.name} />
+                <img src={`https://pet-linker-ug8m.vercel.app/images/${selectedPet.filename}`} alt={selectedPet.name} />
               </div>
               <div className='pet-card-details'>
                 <h2>{selectedPet.name}</h2>
