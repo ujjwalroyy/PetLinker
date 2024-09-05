@@ -11,8 +11,10 @@ const app = express();
 const corsOptions = {
     origin: [
       'https://pet-linker.vercel.app',
+      
       'http://localhost:3000'
     ],
+    credentials: true,
   };
   
 app.use(cors(corsOptions));
